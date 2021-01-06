@@ -1,0 +1,22 @@
+{
+    "name": "zzyl/ranking",
+    "description": "This is Ranking Service For User To Rank",
+    "type": "library",
+    "require": {
+        "php": ">=7",
+        "predis/predis": "^1.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Redisranking\\": "src/RedisRanking/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DongZhou",
+            "email": "dongzhou.southeast@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
